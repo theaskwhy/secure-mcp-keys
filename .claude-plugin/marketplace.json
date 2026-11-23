@@ -1,0 +1,14 @@
+{
+  "name": "secure-mcp-keys",
+  "owner": {
+    "name": "The Ask Why Company",
+    "url": "https://github.com/theaskwhy"
+  },
+  "plugins": [
+    {
+      "name": "secure-mcp-keys",
+      "source": "./",
+      "description": "Use when connecting a local MCP server that needs an access token (e.g. a desktop app's automation server) to Claude Code, Codex or other agents \u2014 keeping the token in the macOS Keychain instead of chat, files or shell history."
+    }
+  ]
+}
